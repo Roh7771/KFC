@@ -64,7 +64,7 @@ productProteinEl_2.textContent = `Б: ${longer.protein} г`;
 const productFatsEl_1 = document.getElementById('fats-1');
 productFatsEl_1.textContent = `Ж: ${darkBurger.fats} г`;
 const productFatsEl_2 = document.getElementById('fats-2');
-productFatsEl_2.textContent = `Ж: ${longer.fats }г`;
+productFatsEl_2.textContent = `Ж: ${longer.fats } г`;
 
 const productCarbHydrEl_1 = document.getElementById('carbhydr-1');
 productCarbHydrEl_1.textContent = `У: ${darkBurger.carbohydrates} г`

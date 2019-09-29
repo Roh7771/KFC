@@ -1,0 +1,94 @@
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+#product {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+
+#img-container {
+    width: 350px;
+
+}
+
+#img {
+    width: 350px;
+    height: 350px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f7f6f5;
+
+}
+
+#product-price-1, #product-price-2 {
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    background-color: black;
+    color: white;
+    font-weight: 900;
+    font-size: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    top: 1rem;
+    right: 1rem;
+}
+
+
+#attention-1, #attention-2 {
+    font-size: 10px;
+    line-height: 14px;
+    color: #9d9d9d;
+}
+
+#attention-1 {
+    margin-top: 30px;
+}
+
+#descr-container {
+    width: 479px;
+    margin-left: 124px;
+}
+
+#name-1, #name-2{
+    font-size: 56px;;
+    font-weight: 900;
+    margin: 0 0 7px 0;
+}
+
+#weigth-1, #weigth-2 {
+    font-size: 25px;
+    line-height: 35px;
+    margin: 0 0 14px 0;
+}
+
+#descr-1, #descr-2 {
+    font-size: 15px;
+    line-height: 23px;
+    color: #9d9d9d;
+    margin: 0 0 30px 0;
+}
+
+#energy-1, #energy-2 {
+    font-size: 31px;
+    line-height: 38px;
+    margin: 0 0 15px 0;
+}
+
+#content {
+    display: flex;
+    margin: 0;
+}
+
+#fats-1, #fats-2, #protein-1, #protein-2, #carbhydr-1, #carbhydr-2 {
+    font-size: 23px;
+    line-height: 31px;
+    margin: 0 62px 0 0;
+}
