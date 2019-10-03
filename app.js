@@ -26,49 +26,49 @@ const longer = {
     carbohydrates: 33.3 
 }
 
-const productImgUrlEl_1 = document.getElementById('product-img-1');
-productImgUrlEl_1.src = darkBurger.imgUrl;
-const productImgUrlEl_2 = document.getElementById('product-img-2');
-productImgUrlEl_2.src = longer.imgUrl;
+const darkBurgerImgEl = document.getElementById('product-img-1');
+darkBurgerImgEl.src = darkBurger.imgUrl;
+const longerImgEl = document.getElementById('product-img-2');
+longerImgEl.src = longer.imgUrl;
 
-const productPriceEl_1 = document.getElementById('product-price-1');
-productPriceEl_1.innerHTML = `${darkBurger.price}&#8381;`;
-const productPriceEl_2 = document.getElementById('product-price-2');
-productPriceEl_2.innerHTML = `${longer.price}&#8381;`;
+const darkBurgerPriceEl = document.getElementById('product-price-1');
+darkBurgerPriceEl.innerHTML = `${darkBurger.price}&#8381;`;
+const longerPriceEl = document.getElementById('product-price-2');
+longerPriceEl.innerHTML = `${longer.price}&#8381;`;
 
-const productNameEl_1 = document.getElementById('name-1');
-productNameEl_1.textContent = darkBurger.name;
-const productNameEl_2 = document.getElementById('name-2');
-productNameEl_2.textContent = longer.name;
+const darkBurgerNameEl = document.getElementById('name-1');
+darkBurgerNameEl.textContent = darkBurger.name;
+const longerNameEl = document.getElementById('name-2');
+longerNameEl.textContent = longer.name;
 
-const productDescrPriceEl_1 = document.getElementById('weigth-1');
-productDescrPriceEl_1.textContent = `${darkBurger.weight} Г`;
-const productDescrPriceEl_2 = document.getElementById('weigth-2');
-productDescrPriceEl_2.textContent = `${longer.weight} Г`;
+const darkBurgerWeightEl = document.getElementById('weight-1');
+darkBurgerWeightEl.textContent = `${darkBurger.weight} Г`;
+const longerWeightEl = document.getElementById('weight-2');
+longerWeightEl.textContent = `${longer.weight} Г`;
 
-const productDescrEl_1 = document.getElementById('descr-1');
-productDescrEl_1.textContent = darkBurger.description;
-const productDescrEl_2 = document.getElementById('descr-2');
-productDescrEl_2.textContent = longer.description;
+const darkBurgerDescrEl = document.getElementById('descr-1');
+darkBurgerDescrEl.textContent = darkBurger.description;
+const longerDescrEl = document.getElementById('descr-2');
+longerDescrEl.textContent = longer.description;
 
-const productEnergyEl_1 = document.getElementById('energy-1');
-productEnergyEl_1.textContent = `${darkBurger.energy} Ккал`;
-const productEnergyEl_2 = document.getElementById('energy-2');
-productEnergyEl_2.textContent = `${longer.energy} Ккал`;
+const darkBurgerEnergyEl = document.getElementById('energy-1');
+darkBurgerEnergyEl.textContent = `${darkBurger.energy} Ккал`;
+const longerEnergyEl = document.getElementById('energy-2');
+longerEnergyEl.textContent = `${longer.energy} Ккал`;
 
-const productProteinEl_1 = document.getElementById('protein-1');
-productProteinEl_1.textContent = `Б: ${darkBurger.protein} г`;
-const productProteinEl_2 = document.getElementById('protein-2');
-productProteinEl_2.textContent = `Б: ${longer.protein} г`;
+const darkBurgerProteinEl = document.getElementById('protein-1');
+darkBurgerProteinEl.textContent = `Б: ${darkBurger.protein} г`;
+const longerProteinEl = document.getElementById('protein-2');
+longerProteinEl.textContent = `Б: ${longer.protein} г`;
 
-const productFatsEl_1 = document.getElementById('fats-1');
-productFatsEl_1.textContent = `Ж: ${darkBurger.fats} г`;
-const productFatsEl_2 = document.getElementById('fats-2');
-productFatsEl_2.textContent = `Ж: ${longer.fats } г`;
+const darkBurgerFatsEl = document.getElementById('fats-1');
+darkBurgerFatsEl.textContent = `Ж: ${darkBurger.fats} г`;
+const longerFatsEl = document.getElementById('fats-2');
+longerFatsEl.textContent = `Ж: ${longer.fats } г`;
 
-const productCarbHydrEl_1 = document.getElementById('carbhydr-1');
-productCarbHydrEl_1.textContent = `У: ${darkBurger.carbohydrates} г`
-const productCarbHydrEl_2 = document.getElementById('carbhydr-2');
-productCarbHydrEl_2.textContent = `У: ${longer.carbohydrates} г`
+const darkBurgerCarbHydrEl = document.getElementById('carbhydr-1');
+darkBurgerCarbHydrEl.textContent = `У: ${darkBurger.carbohydrates} г`
+const longerCarbHydrEl = document.getElementById('carbhydr-2');
+longerCarbHydrEl.textContent = `У: ${longer.carbohydrates} г`
 
 
